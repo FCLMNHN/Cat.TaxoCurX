@@ -1,0 +1,51 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Technology for biodiversity",
+    "author": [
+        {
+            "id": "https://orcid.org/my-orcid?orcid=0000-0002-1276-0707",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Pôle National des Données de Biodiversité"
+            },
+            "email": "francis.clement@essec.edu",
+            "familyName": "CLEMENT",
+            "givenName": "Francis"
+        },
+        {
+            "type": "Role",
+            "schema:author": "https://orcid.org/my-orcid?orcid=0000-0002-1276-0707",
+            "roleName": "Chief Operating Officer",
+            "startDate": "2025-02-25"
+        }
+    ],
+    "codeRepository": "https://github.com/FCLMNHN/Cat.TaxoCurX",
+    "dateCreated": "2026-06-11",
+    "dateModified": "2026-06-11",
+    "datePublished": "2026-06-16",
+    "description": "Interactive desktop application for curating, aligning, and validating taxonomic coverage of datasets.",
+    "downloadUrl": "https://github.com/FCLMNHN/Cat.taxoCovX",
+    "keywords": [
+        "catalog",
+        "taxa"
+        "taxonomic coverage"
+        "Curation"
+        "Data quality"
+    ],
+    "license": "https://spdx.org/licenses/MIT",
+    "isPartOf": "https://github.com/FCLMNHN/Cat.taxoCovX",
+    "name": "Cat.TaxoCurX",
+    "operatingSystem": [
+        "MacOS",
+        "Linux",
+        "Unix",
+        "Windows"
+    ],
+    "programmingLanguage": "Python",
+    "relatedLink": "https://www.pnfb.fr",
+    "releaseNotes": "- JSON File Management: Seamlessly import raw dataset files containing validation status flags and re-export cleaned data.\n- Automated Taxonomic Validation: Direct integration with the GBIF v2 API to fetch authentic canonical names (`gbif_canonicalName`) and official taxon IDs (`taxonID`).\n- Live PNDB Metadata: Real-time queries to the PNDB catalog API to pull down dataset titles and French/English descriptions dynamically.\n- Contextual Historical Overview: In-app visibility of already validated species within the same dataset package, with the ability to rollback/undo mistakes (*Invalidation*).\n- Data Enrichment: On-the-fly additions of brand-new species directly into the selected dataset structure.\n- Integrated Search Assistant: An embedded web browser (powered by `QWebEngineView`) automatically triggers a DuckDuckGo search whenever an unverified taxon is selected, preventing the need to switch windows to look up alternative spellings.This script automatically enriches the metadata of PNDB datasets with comprehensive, standardised taxonomic coverage.",
+    "version": "3.0",
+    "issueTracker": "https://github.com/FCLMNHN/Cat.taxoCovX/issues"
+}
