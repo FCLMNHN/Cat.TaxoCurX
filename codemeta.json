@@ -35,7 +35,7 @@
         "Data quality"
     ],
     "license": "https://spdx.org/licenses/MIT",
-    "isPartOf": "https://github.com/FCLMNHN/Cat.taxoCovX",
+    "isPartOf": "https://github.com/FCL-DataIA/Cat.TaxoCurX",
     "name": "Cat.TaxoCurX",
     "operatingSystem": [
         "MacOS",
@@ -47,5 +47,5 @@
     "relatedLink": "https://www.pnfb.fr",
     "releaseNotes": "- JSON File Management: Seamlessly import raw dataset files containing validation status flags and re-export cleaned data.\n- Automated Taxonomic Validation: Direct integration with the GBIF v2 API to fetch authentic canonical names (`gbif_canonicalName`) and official taxon IDs (`taxonID`).\n- Live PNDB Metadata: Real-time queries to the PNDB catalog API to pull down dataset titles and French/English descriptions dynamically.\n- Contextual Historical Overview: In-app visibility of already validated species within the same dataset package, with the ability to rollback/undo mistakes (*Invalidation*).\n- Data Enrichment: On-the-fly additions of brand-new species directly into the selected dataset structure.\n- Integrated Search Assistant: An embedded web browser (powered by `QWebEngineView`) automatically triggers a DuckDuckGo search whenever an unverified taxon is selected, preventing the need to switch windows to look up alternative spellings.This script automatically enriches the metadata of PNDB datasets with comprehensive, standardised taxonomic coverage.",
     "version": "3.0",
-    "issueTracker": "https://github.com/FCLMNHN/Cat.taxoCovX/issues"
+    "issueTracker": "https://github.com/FCL-DataIA/Cat.TaxoCurX/issues"
 }
